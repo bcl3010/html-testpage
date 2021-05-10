@@ -1,0 +1,67 @@
+body {
+	width: 99%;
+	font-family: 微软雅黑, Arial, Helvetica;
+
+}
+
+a,
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+.nav a {
+
+	text-decoration: none;
+	display: block;
+	width: 80%;
+	height: 40px;
+	padding: 2px;
+	margin: -1px;
+	border-radius: 3px;
+	background-color: #618fcc;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 8%;
+	margin-top: 20px;
+	color: #FFFFFF;
+	font-weight: 700;
+}
+
+.nav a:hover {
+	background-color: #6171cc;
+}
+
+.main {
+	position: absolute;
+	width: 80%;
+	height: 100%;
+	display: block;
+	left: 10%;
+	background-color:rgba(255, 255, 255, 0.3);
+	
+}
+body .main .right_img img{
+	max-width:300px;
+	_width:expression(this.width > 300 ? "300px" : this.width);
+}
+
+body .main h2{
+	color: #FF0000;
+}
+.p_price{
+	color: #FF0000;
+	text-align: left;
+}
+.p_name{
+	font-size: 18px;
+	font-weight: 600;
+	color: #2E6DA4;
+}
+body .main .img_about{
+	text-align: center;
+}
+body .main .img_about img{
+	width: 800px;
+	
+}
